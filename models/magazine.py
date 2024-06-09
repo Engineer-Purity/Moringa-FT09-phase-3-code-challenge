@@ -1,8 +1,6 @@
+# models/magazine.py
 class Magazine:
-    def __init__(self, id, name, category):
+    def __init__(self, id, title, category):
         self.id = id
-        self.name = name
+        self.title = title  # Make sure title is defined
         self.category = category
-
-    def __repr__(self):
-        return f'<Magazine {self.name}>'
