@@ -1,5 +1,4 @@
 # models/author.py
-# models/author.py
 class Author:
     def __init__(self, id, name, email):
         if not name:
@@ -13,3 +12,4 @@ class Author:
 
     def get_contact_info(self):
         return f"{self.name} <{self.email}>"
+

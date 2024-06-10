@@ -1,5 +1,4 @@
 # models/magazine.py
-# models/magazine.py
 class Magazine:
     def __init__(self, id, title, category, frequency):
         if not title:
